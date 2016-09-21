@@ -12,6 +12,7 @@
 		BC3B57271D922212009DC438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3B57251D922212009DC438 /* Main.storyboard */; };
 		BC3B57291D922212009DC438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3B57281D922212009DC438 /* Assets.xcassets */; };
 		BC3B572C1D922212009DC438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3B572A1D922212009DC438 /* LaunchScreen.storyboard */; };
+		BC3B57341D922717009DC438 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B57331D922717009DC438 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BC3B57281D922212009DC438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3B572B1D922212009DC438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC3B572D1D922212009DC438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3B57331D922717009DC438 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				BC3B57211D922212009DC438 /* AppDelegate.swift */,
+				BC3B57331D922717009DC438 /* CollectionViewCell.swift */,
 				BC3B57231D922212009DC438 /* ViewController.swift */,
 				BC3B57251D922212009DC438 /* Main.storyboard */,
 				BC3B57281D922212009DC438 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				BC3B57241D922212009DC438 /* ViewController.swift in Sources */,
 				BC3B57221D922212009DC438 /* AppDelegate.swift in Sources */,
+				BC3B57341D922717009DC438 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				BC3B57321D922212009DC438 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
